@@ -11,3 +11,6 @@ LX_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date -u 
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.lx.version=$(LX_VERSION) \
   ro.modversion=$(LX_VERSION)
+
+PRODUCT_PACKAGES += \
+    Launcher3
