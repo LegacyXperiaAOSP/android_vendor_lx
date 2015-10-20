@@ -14,3 +14,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PACKAGES += \
     Launcher3
+
+PRODUCT_BOOTANIMATION := vendor/lx/prebuilt/bootanimation/$(TARGET_SCREEN_WIDTH).zip
